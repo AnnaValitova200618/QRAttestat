@@ -1,0 +1,17 @@
+﻿<Application x:Class="QRAttestat.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:QRAttestat"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="DataGrid">
+            <Setter Property="FontSize" Value="16"/>
+            
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+    </Application.Resources>
+</Application>
